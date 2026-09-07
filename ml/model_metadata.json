@@ -1,0 +1,111 @@
+{
+  "model_version": "20260906151259",
+  "trained_at_utc": "2026-09-06T15:12:59.285713+00:00",
+  "sklearn_version": "1.9.0",
+  "python_version": "3.14.2",
+  "model_type": "logistic_regression",
+  "selection_reason": "logistic_regression selected: CV ROC-AUC (logreg=0.4914, rf=0.4994) differ by <= 0.02, which is within cross-fold noise here (see std_roc_auc). Preferring the simpler, more interpretable, faster-to-serve model per 'honestly-evaluated simple model over an unjustified complex one'.",
+  "target": {
+    "name": "delay_risk",
+    "definition": "actual_delay_hours > 24"
+  },
+  "feature_columns": {
+    "categorical": [
+      "origin_port",
+      "destination_port",
+      "cargo_type"
+    ],
+    "numeric": [
+      "weight_tons",
+      "container_count",
+      "planned_transit_days",
+      "booking_lead_days",
+      "booking_month",
+      "booking_day_of_week",
+      "origin_congestion_score",
+      "destination_congestion_score"
+    ]
+  },
+  "excluded_features": {
+    "leaky_columns": [
+      "actual_arrival",
+      "actual_delay_hours",
+      "actual_departure",
+      "on_time_flag",
+      "status",
+      "transit_days_actual"
+    ],
+    "high_cardinality_no_signal": [
+      "customer_id",
+      "vessel_id"
+    ]
+  },
+  "dataset": {
+    "shipments_path": "/Users/stutigupta/Downloads/supply-chain-intelligence/curated/shipments_curated.csv",
+    "ports_path": "/Users/stutigupta/Downloads/supply-chain-intelligence/curated/ports_curated.csv",
+    "total_rows": 4794,
+    "labelled_rows": 4542,
+    "train_rows": 3633,
+    "test_rows": 909,
+    "class_balance": {
+      "0": 0.596,
+      "1": 0.404
+    }
+  },
+  "cross_validation": {
+    "folds": 5,
+    "results": {
+      "logistic_regression": {
+        "mean_roc_auc": 0.4914,
+        "mean_f1": 0.4333,
+        "mean_precision": 0.4,
+        "mean_recall": 0.473,
+        "std_roc_auc": 0.0148
+      },
+      "random_forest": {
+        "mean_roc_auc": 0.4994,
+        "mean_f1": 0.4256,
+        "mean_precision": 0.4102,
+        "mean_recall": 0.4425,
+        "std_roc_auc": 0.0272
+      }
+    }
+  },
+  "test_set_evaluation": {
+    "precision": 0.4033,
+    "recall": 0.4605,
+    "f1_score": 0.43,
+    "roc_auc": 0.4987,
+    "pr_auc": 0.4073,
+    "confusion_matrix": [
+      [
+        292,
+        250
+      ],
+      [
+        198,
+        169
+      ]
+    ]
+  },
+  "monitoring_plan": {
+    "tracked_metrics": [
+      "rolling_precision",
+      "rolling_recall",
+      "rolling_f1",
+      "rolling_roc_auc",
+      "rolling_pr_auc",
+      "calibration_brier_score",
+      "input_feature_drift_psi",
+      "predicted_high_risk_rate",
+      "predict_delay_latency_ms",
+      "predict_delay_error_rate"
+    ],
+    "retrain_triggers": [
+      "rolling AUC below baseline for 2+ consecutive evaluation windows",
+      "material drift in route/cargo-type mix vs. training distribution",
+      "fixed quarterly cadence regardless of drift",
+      "ports.csv congestion reference data refreshed"
+    ]
+  }
+}

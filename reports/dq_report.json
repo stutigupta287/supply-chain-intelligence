@@ -1,0 +1,193 @@
+{
+    "dataset": "shipments.csv",
+    "dataset_summary": {
+        "total_rows": 5028,
+        "total_columns": 14,
+        "columns": [
+            "shipment_id",
+            "customer_id",
+            "origin_port",
+            "destination_port",
+            "vessel_id",
+            "booking_date",
+            "planned_departure",
+            "actual_departure",
+            "planned_arrival",
+            "actual_arrival",
+            "container_count",
+            "cargo_type",
+            "weight_tons",
+            "status"
+        ]
+    },
+    "quality_summary": {
+        "total_checks": 23,
+        "checks_with_issues": 13,
+        "critical_issues": 5,
+        "warning_issues": 6,
+        "info_issues": 2
+    },
+    "checks": [
+        {
+            "check_name": "duplicate_rows",
+            "rows_affected": 16,
+            "percentage": 0.32,
+            "severity": "critical",
+            "recommended_action": "Remove exact duplicate rows after verifying that they are accidental duplicates."
+        },
+        {
+            "check_name": "duplicate_shipment_ids",
+            "rows_affected": 56,
+            "percentage": 1.11,
+            "severity": "critical",
+            "recommended_action": "Shipment ID should uniquely identify a shipment. Investigate duplicates and keep only the correct record."
+        },
+        {
+            "check_name": "missing_shipment_id",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Quarantine records without a shipment ID because shipment_id is the primary business identifier."
+        },
+        {
+            "check_name": "missing_cargo_type",
+            "rows_affected": 15,
+            "percentage": 0.3,
+            "severity": "warning",
+            "recommended_action": "Flag missing cargo type values. Do not infer cargo type unless a trustworthy source exists."
+        },
+        {
+            "check_name": "missing_weight_tons",
+            "rows_affected": 73,
+            "percentage": 1.45,
+            "severity": "warning",
+            "recommended_action": "Flag shipments with missing weight. Keep as null unless the value can be reliably recovered."
+        },
+        {
+            "check_name": "negative_weight_tons",
+            "rows_affected": 36,
+            "percentage": 0.72,
+            "severity": "critical",
+            "recommended_action": "Negative shipment weight is physically invalid. Quarantine or correct affected records."
+        },
+        {
+            "check_name": "zero_container_count",
+            "rows_affected": 23,
+            "percentage": 0.46,
+            "severity": "warning",
+            "recommended_action": "Review shipments with zero containers. They may represent invalid or incomplete booking data."
+        },
+        {
+            "check_name": "negative_container_count",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Container count cannot be negative. Correct or quarantine affected records."
+        },
+        {
+            "check_name": "missing_status",
+            "rows_affected": 54,
+            "percentage": 1.07,
+            "severity": "warning",
+            "recommended_action": "Flag records with missing shipment status. Do not guess a status from unrelated fields."
+        },
+        {
+            "check_name": "inconsistent_status_values",
+            "rows_affected": 92,
+            "percentage": 1.83,
+            "severity": "warning",
+            "recommended_action": "Standardize status values to a canonical vocabulary. For example normalize case and investigate whether 'COMPLETED'/'Complete' should map to DELIVERED."
+        },
+        {
+            "check_name": "inconsistent_cargo_type_formatting",
+            "rows_affected": 3611,
+            "percentage": 71.82,
+            "severity": "warning",
+            "recommended_action": "Normalize cargo types by trimming whitespace and applying consistent capitalization."
+        },
+        {
+            "check_name": "invalid_date_format_booking_date",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Correct or quarantine values in 'booking_date' that cannot be parsed as timestamps."
+        },
+        {
+            "check_name": "invalid_date_format_planned_departure",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Correct or quarantine values in 'planned_departure' that cannot be parsed as timestamps."
+        },
+        {
+            "check_name": "invalid_date_format_actual_departure",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Correct or quarantine values in 'actual_departure' that cannot be parsed as timestamps."
+        },
+        {
+            "check_name": "invalid_date_format_planned_arrival",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Correct or quarantine values in 'planned_arrival' that cannot be parsed as timestamps."
+        },
+        {
+            "check_name": "invalid_date_format_actual_arrival",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Correct or quarantine values in 'actual_arrival' that cannot be parsed as timestamps."
+        },
+        {
+            "check_name": "planned_departure_before_booking",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Planned departure should not occur before the shipment booking date."
+        },
+        {
+            "check_name": "actual_departure_before_booking",
+            "rows_affected": 39,
+            "percentage": 0.78,
+            "severity": "critical",
+            "recommended_action": "Actual departure occurring before booking is chronologically inconsistent. Investigate and correct or quarantine the affected rows."
+        },
+        {
+            "check_name": "planned_arrival_before_planned_departure",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Planned arrival cannot occur before planned departure."
+        },
+        {
+            "check_name": "actual_arrival_before_actual_departure",
+            "rows_affected": 0,
+            "percentage": 0.0,
+            "severity": "critical",
+            "recommended_action": "Actual arrival cannot occur before actual departure."
+        },
+        {
+            "check_name": "missing_actual_departure",
+            "rows_affected": 349,
+            "percentage": 6.94,
+            "severity": "info",
+            "recommended_action": "Keep null when appropriate for cancelled or not-yet-departed shipments. Validate against status."
+        },
+        {
+            "check_name": "missing_actual_arrival",
+            "rows_affected": 349,
+            "percentage": 6.94,
+            "severity": "info",
+            "recommended_action": "Keep null when appropriate for cancelled or not-yet-arrived shipments. Validate against status."
+        },
+        {
+            "check_name": "delivered_without_actual_arrival",
+            "rows_affected": 28,
+            "percentage": 0.56,
+            "severity": "critical",
+            "recommended_action": "A delivered shipment should normally have an actual arrival timestamp. Investigate affected rows."
+        }
+    ]
+}

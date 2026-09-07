@@ -1,0 +1,114 @@
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:16-alpine
+    container_name: supply-chain-postgres
+    environment:
+      - POSTGRES_DB=supply_chain
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - supply-chain-network
+
+  # ML Prediction Microservice
+  ml-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.ml
+    container_name: supply-chain-ml
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./ml:/app/ml:ro
+    healthcheck:
+      test: ["CMD", "python", "-c", "import httpx; httpx.get('http://localhost:5000/health', timeout=2)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    restart: unless-stopped
+    networks:
+      - supply-chain-network
+
+  # Supply Chain Intelligence API Service
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: supply-chain-api
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=default
+      - DB_USERNAME=postgres
+      - DB_PASSWORD=postgres
+      - LOAD_CSV_ON_STARTUP=${LOAD_CSV_ON_STARTUP:-true}
+      - CSV_PATH=curated/shipments_curated.csv
+      - SKIP_IF_DATA_EXISTS=${SKIP_IF_DATA_EXISTS:-true}
+      - ML_SERVICE_URL=http://ml-service:5000
+      - JAVA_OPTS=-Xmx512m -Xms256m
+    volumes:
+      # Mount data directories for runtime access
+      - ./data:/app/data:ro
+      - ./reports:/app/reports:rw
+      - ./curated:/app/curated:ro
+      - ./quarantine:/app/quarantine:ro
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ml-service:
+        condition: service_healthy
+    networks:
+      - supply-chain-network
+
+  # Python Data Engineering Service (optional - for running DQ checks)
+  data-engineering:
+    image: python:3.11-slim
+    container_name: supply-chain-data-eng
+    working_dir: /app
+    volumes:
+      - ./data:/app/data:ro
+      - ./reports:/app/reports:rw
+      - ./curated:/app/curated:rw
+      - ./quarantine:/app/quarantine:rw
+      - ./data-engineering:/app/scripts:ro
+    command: >
+      sh -c "
+        pip install --no-cache-dir pandas &&
+        python scripts/dq_check.py --input data/shipments.csv --output reports/dq_report.json &&
+        python scripts/transform_ports.py --input data/ports.csv --curated-output curated/ports_curated.csv --quarantine-output quarantine/ports_quarantine.csv &&
+        python scripts/transform_shipments.py --input data/shipments.csv --curated-output curated/shipments_curated.csv --quarantine-output quarantine/shipments_quarantine.csv &&
+        python scripts/transform_port_events.py --input data/port_events.csv --curated-output curated/port_events_curated.csv --quarantine-output quarantine/port_events_quarantine.csv &&
+        echo 'Data quality checks and transformations complete' &&
+        tail -f /dev/null
+      "
+    networks:
+      - supply-chain-network
+    depends_on:
+      - api
+
+networks:
+  supply-chain-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local

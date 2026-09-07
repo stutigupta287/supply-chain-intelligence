@@ -1,0 +1,345 @@
+event_id,event_timestamp,port_code,vessel_id,event_type,delay_minutes,notes,quarantine_reason
+EVT-006658,2024-06-02 12:40:00,JPYOK,VSL-0065,ARRIVAL,56,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-008392,2024-06-05 11:20:00,HKHKG,VSL-0045,ARRIVAL,42,Customs inspection required,conflicting_duplicate_event_id
+EVT-012052,2024-06-06 09:05:00,HKHKG,VSL-0023,DEPARTURE,0,,conflicting_duplicate_event_id
+EVT-012512,2024-06-07 02:02:00,SGSIN,VSL-0062,INSPECTION,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-009897,2024-06-07 03:26:00,USLAX,VSL-0015,DELAYED,134,High tide window missed,conflicting_duplicate_event_id
+EVT-000148,2024-06-11 02:34:00,BEANR,VSL-0056,LOADING_COMPLETE,0,Normal operations,conflicting_duplicate_event_id
+EVT-000572,2024-06-12 18:35:00,ESVLC,VSL-0059,INSPECTION,59,Weather delay – fog,conflicting_duplicate_event_id
+EVT-009897,2024-06-13 20:13:00,HKHKG,VSL-0065,CUSTOMS_CLEARED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-002786,2024-06-15 18:45:00,GBFXT,VSL-0061,DEPARTURE,57,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-016169,2024-06-18 14:11:00,MYPKG,VSL-0053,LOADING_COMPLETE,0,Normal operations,conflicting_duplicate_event_id
+EVT-000913,2024-06-19 16:39:00,MYPKG,VSL-0057,DEPARTURE,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-000283,2024-06-19 19:21:00,EGPSD,VSL-0008,DELAYED,73,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-000365,2024-06-24 02:35:00,CNSHA,VSL-0026,DEPARTURE,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-002786,2024-06-29 00:20:00,USSAV,VSL-0047,LOADING_COMPLETE,46,Crane maintenance window,conflicting_duplicate_event_id
+EVT-002914,2024-07-01 04:18:00,AEDXB,VSL-0012,INSPECTION,46,High tide window missed,conflicting_duplicate_event_id
+EVT-005566,2024-07-07 12:54:00,NLRTM,VSL-0056,DEPARTURE,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-001074,2024-07-07 16:40:00,BRSSZ,VSL-0019,CUSTOMS_CLEARED,10,Normal operations,conflicting_duplicate_event_id
+EVT-003427,2024-07-14 12:11:00,BRSSZ,VSL-0067,BERTHED,41,Weather delay – fog,conflicting_duplicate_event_id
+EVT-005044,2024-07-21 22:52:00,PKKAR,VSL-0067,BERTHED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-023124,2024-07-22 20:07:00,MYPKG,VSL-0055,BERTHED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-006454,2024-07-29 05:55:00,USNYC,VSL-0006,DELAYED,221,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-000464,2024-08-01 05:08:00,CNNGB,VSL-0021,CUSTOMS_CLEARED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000471,2024-08-01 06:03:00,AEDXB,VSL-0077,DELAYED,174,High tide window missed,conflicting_duplicate_event_id
+EVT-000471,2024-08-01 11:15:00,JPYOK,VSL-0030,INSPECTION,24,Weather delay – storm,conflicting_duplicate_event_id
+EVT-010656,2024-08-01 12:24:00,GBFXT,VSL-0076,CUSTOMS_CLEARED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-003746,2024-08-03 01:45:00,SGSIN,VSL-0035,DEPARTURE,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-001989,2024-08-03 06:43:00,CNSZX,VSL-0035,CUSTOMS_CLEARED,0,,conflicting_duplicate_event_id
+EVT-014045,2024-08-05 09:31:00,THBKK,VSL-0051,DEPARTURE,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-001087,2024-08-08 17:19:00,SGSIN,VSL-0023,ARRIVAL,0,Normal operations,conflicting_duplicate_event_id
+EVT-008343,2024-08-13 14:53:00,GBFXT,VSL-0069,INSPECTION,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-014872,2024-08-14 09:53:00,USLAX,VSL-0009,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-003087,2024-08-16 15:15:00,GBFXT,VSL-0063,DELAYED,290,Customs inspection required,conflicting_duplicate_event_id
+EVT-014534,2024-08-19 11:31:00,BRSSZ,VSL-0057,LOADING_COMPLETE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-004569,2024-08-20 11:47:00,MYPKG,VSL-0019,INSPECTION,5,Weather delay – fog,conflicting_duplicate_event_id
+EVT-008392,2024-08-20 14:38:00,CNSZX,VSL-0066,CUSTOMS_CLEARED,0,,conflicting_duplicate_event_id
+EVT-001757,2024-08-26 00:47:00,SGSIN,VSL-0074,BERTHED,30,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-012052,2024-08-27 05:25:00,SGSIN,VSL-0032,CUSTOMS_CLEARED,0,Normal operations,conflicting_duplicate_event_id
+EVT-001135,2024-09-09 09:44:00,AEDXB,VSL-0043,DEPARTURE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-000764,2024-09-11 07:58:00,CNSHA,VSL-9999,INSPECTION,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-000764,2024-09-11 08:11:00,CNSHA,VSL-0066,CUSTOMS_CLEARED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-020594,2024-09-16 05:33:00,NLRTM,VSL-0062,DELAYED,146,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-013824,2024-09-17 10:16:00,GBFXT,VSL-0051,LOADING_COMPLETE,24,Labour shortage reported,conflicting_duplicate_event_id
+EVT-000441,2024-09-17 22:07:00,CNSZX,VSL-0023,BERTHED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-001087,2024-09-19 15:25:00,HKHKG,VSL-0079,DEPARTURE,0,,conflicting_duplicate_event_id
+EVT-001143,2024-10-01 14:06:00,INNSA,VSL-0015,DELAYED,137,Customs inspection required,conflicting_duplicate_event_id
+EVT-020379,2024-10-01 15:59:00,EGPSD,VSL-0013,DEPARTURE,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-007304,2024-10-05 05:36:00,SGSIN,VSL-0056,ARRIVAL,55,High tide window missed,conflicting_duplicate_event_id
+EVT-001941,2024-10-05 15:14:00,BEANR,VSL-0003,CUSTOMS_CLEARED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-020594,2024-10-10 19:33:00,NLRTM,VSL-0014,,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-002857,2024-10-12 01:11:00,USNYC,VSL-0059,ARRIVAL,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-007393,2024-10-12 20:34:00,JPYOK,VSL-0051,BERTHED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-003087,2024-10-21 13:05:00,PKKAR,VSL-0032,DELAYED,160,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-008343,2024-10-25 10:12:00,ESVLC,VSL-0025,DEPARTURE,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-014045,2024-10-26 15:06:00,ZADUR,VSL-0061,INSPECTION,0,High tide window missed,conflicting_duplicate_event_id
+EVT-014872,2024-11-04 17:00:00,GBFXT,VSL-0076,DEPARTURE,0,Normal operations,conflicting_duplicate_event_id
+EVT-001911,2024-11-04 18:31:00,CNSHA,VSL-0037,DEPARTURE,0,High tide window missed,conflicting_duplicate_event_id
+EVT-001064,2024-11-04 21:24:00,SGSIN,VSL-0062,LOADING_COMPLETE,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-002087,2024-11-06 10:17:00,BEANR,VSL-0043,LOADING_COMPLETE,44,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-003926,2024-11-07 22:50:00,PKKAR,VSL-0046,ARRIVAL,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-000591,2024-11-08 18:49:00,HKHKG,VSL-0021,CUSTOMS_CLEARED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-005566,2024-11-08 21:21:00,PKKAR,VSL-0059,DELAYED,94,Normal operations,conflicting_duplicate_event_id
+EVT-001130,2024-11-09 11:30:00,USLGB,VSL-0062,LOADING_COMPLETE,18,Labour shortage reported,conflicting_duplicate_event_id
+EVT-004561,2024-11-12 20:41:00,USSAV,VSL-0006,BERTHED,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-010618,2024-11-13 08:37:00,INNSA,VSL-0005,CUSTOMS_CLEARED,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-008104,2024-11-18 14:46:00,PKKAR,VSL-0027,DELAYED,6,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-001143,2024-11-19 20:11:00,NLRTM,VSL-0058,ARRIVAL,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-006658,2024-11-25 03:52:00,INNSA,VSL-0018,LOADING_COMPLETE,0,,conflicting_duplicate_event_id
+EVT-003265,2024-11-29 18:04:00,CNNGB,VSL-0051,ARRIVAL,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-013824,2024-11-30 14:33:00,SGSIN,VSL-0009,CUSTOMS_CLEARED,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-002791,2024-12-06 20:32:00,EGPSD,VSL-0037,LOADING_COMPLETE,0,,conflicting_duplicate_event_id
+EVT-002696,2024-12-09 07:17:00,PKKAR,VSL-0002,BERTHED,5,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-000083,2024-12-09 16:41:00,DEHAM,VSL-0033,DEPARTURE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-002918,2024-12-09 22:49:00,AEDXB,VSL-0063,BERTHED,44,Reefer unit fault,conflicting_duplicate_event_id
+EVT-013317,2024-12-14 12:11:00,GBFXT,VSL-0076,BERTHED,4,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-008029,2024-12-17 09:59:00,BRSSZ,VSL-0043,DELAYED,84,Normal operations,conflicting_duplicate_event_id
+EVT-001945,2024-12-19 05:59:00,USLGB,VSL-0027,BERTHED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-005970,2024-12-20 06:03:00,KRPUS,VSL-0027,ARRIVAL,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-021936,2024-12-21 06:59:00,ESVLC,VSL-0036,CUSTOMS_CLEARED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000572,2024-12-21 09:49:00,SGSIN,VSL-0072,ARRIVAL,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000591,2024-12-21 22:28:00,BRSSZ,VSL-0003,LOADING_COMPLETE,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-005216,2024-12-29 04:42:00,PKKAR,VSL-0073,INSPECTION,19,Labour shortage reported,conflicting_duplicate_event_id
+EVT-015545,2025-01-03 19:21:00,EGPSD,VSL-0050,,56,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-000279,2025-01-05 15:58:00,EGPSD,VSL-0058,ARRIVAL,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-001757,2025-01-08 12:06:00,BEANR,VSL-0016,DEPARTURE,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-001911,2025-01-09 07:30:00,DEHAM,VSL-0073,BERTHED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-000365,2025-01-13 17:40:00,GBFXT,VSL-0048,CUSTOMS_CLEARED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000283,2025-01-18 22:45:00,AEDXB,VSL-0008,INSPECTION,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-000913,2025-01-19 01:54:00,HKHKG,VSL-0005,DELAYED,74,Weather delay – fog,conflicting_duplicate_event_id
+EVT-012427,2025-01-23 04:28:00,JPYOK,VSL-0041,DEPARTURE,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-006464,2025-01-23 05:01:00,USSAV,VSL-0071,DELAYED,295,Weather delay – fog,conflicting_duplicate_event_id
+EVT-000238,2025-01-23 17:45:00,THBKK,VSL-0022,BERTHED,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-008029,2025-01-27 15:55:00,INMUN,VSL-0045,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-008104,2025-01-27 21:59:00,USLGB,VSL-0015,CUSTOMS_CLEARED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-013317,2025-01-31 20:47:00,USSAV,VSL-0024,LOADING_COMPLETE,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-009491,2025-02-01 00:22:00,USSAV,VSL-0043,BERTHED,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-003367,2025-02-03 10:50:00,CNSHA,VSL-0023,DEPARTURE,5,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-007941,2025-02-03 19:12:00,JPYOK,VSL-0035,BERTHED,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-002914,2025-02-08 00:37:00,DEHAM,VSL-0038,LOADING_COMPLETE,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-002696,2025-02-09 21:51:00,ESVLC,VSL-0038,LOADING_COMPLETE,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-023124,2025-02-14 21:26:00,CNSZX,VSL-0058,DEPARTURE,22,Crane maintenance window,conflicting_duplicate_event_id
+EVT-007393,2025-02-15 15:05:00,EGPSD,VSL-0028,CUSTOMS_CLEARED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-009780,2025-02-21 03:01:00,CNNGB,VSL-0034,BERTHED,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-000464,2025-02-21 07:33:00,EGPSD,VSL-0017,DEPARTURE,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-001404,2025-02-22 10:38:00,BRSSZ,VSL-0041,DELAYED,131,,conflicting_duplicate_event_id
+EVT-001135,2025-02-22 20:25:00,JPYOK,VSL-0067,INSPECTION,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-000083,2025-02-23 06:30:00,ESVLC,VSL-0018,ARRIVAL,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-000441,2025-02-24 10:23:00,JPYOK,VSL-0011,INSPECTION,21,High tide window missed,conflicting_duplicate_event_id
+EVT-002654,2025-02-25 23:14:00,ZADUR,VSL-0013,INSPECTION,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-007304,2025-02-27 14:34:00,EGPSD,VSL-0020,DEPARTURE,13,Crane maintenance window,conflicting_duplicate_event_id
+EVT-004561,2025-03-04 06:58:00,ZADUR,VSL-0055,DEPARTURE,32,Weather delay – storm,conflicting_duplicate_event_id
+EVT-001941,2025-03-06 03:12:00,ESVLC,VSL-0035,DEPARTURE,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-003926,2025-03-08 19:03:00,DEHAM,VSL-0067,INSPECTION,0,,conflicting_duplicate_event_id
+EVT-002087,2025-03-08 20:44:00,ESVLC,VSL-0008,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-015545,2025-03-09 02:51:00,ESVLC,VSL-0063,ARRIVAL,0,Normal operations,conflicting_duplicate_event_id
+EVT-014174,2025-03-12 05:52:00,INMUN,VSL-0048,INSPECTION,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-008452,2025-03-13 02:00:00,JPYOK,VSL-0014,DEPARTURE,0,,conflicting_duplicate_event_id
+EVT-003746,2025-03-16 00:02:00,CNNGB,VSL-0070,DELAYED,113,Normal operations,conflicting_duplicate_event_id
+EVT-003359,2025-03-21 07:33:00,BEANR,VSL-0017,LOADING_COMPLETE,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-006179,2025-03-25 05:10:00,GBFXT,VSL-0014,DEPARTURE,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-021212,2025-03-28 19:31:00,SGSIN,VSL-0008,DELAYED,169,Weather delay – fog,conflicting_duplicate_event_id
+EVT-020232,2025-03-30 17:42:00,PKKAR,VSL-0040,DELAYED,72,High tide window missed,conflicting_duplicate_event_id
+EVT-006975,2025-04-01 04:52:00,GBFXT,VSL-0058,DELAYED,121,Weather delay – storm,conflicting_duplicate_event_id
+EVT-008972,2025-04-02 20:48:00,INNSA,VSL-0041,ARRIVAL,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-002404,2025-04-06 07:27:00,HKHKG,VSL-0011,DELAYED,280,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-004708,2025-04-08 15:02:00,AEDXB,VSL-0022,BERTHED,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-001536,2025-04-13 15:08:00,NLRTM,VSL-0030,LOADING_COMPLETE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-014534,2025-04-13 20:26:00,CNNGB,VSL-0031,ARRIVAL,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-002918,2025-04-20 12:42:00,USLGB,VSL-0047,INSPECTION,43,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-002654,2025-04-28 06:56:00,ESVLC,VSL-0028,DEPARTURE,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-001989,2025-05-02 04:52:00,SGSIN,VSL-0051,ARRIVAL,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-010623,2025-05-07 19:05:00,MYPKG,VSL-0034,CUSTOMS_CLEARED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-012574,2025-05-08 00:26:00,USNYC,VSL-0041,LOADING_COMPLETE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-000140,2025-05-10 16:31:00,JPYOK,VSL-0001,DEPARTURE,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-000776,2025-05-11 18:57:00,THBKK,VSL-0006,INSPECTION,42,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-006679,2025-05-14 02:06:00,CNSHA,VSL-0053,LOADING_COMPLETE,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-014174,2025-05-16 01:45:00,THBKK,VSL-0062,ARRIVAL,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-012574,2025-05-22 21:21:00,EGPSD,VSL-0076,DELAYED,158,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-000577,2025-05-24 21:22:00,ESVLC,VSL-0061,DEPARTURE,10,Customs inspection required,conflicting_duplicate_event_id
+EVT-000108,2025-05-25 02:21:00,NLRTM,VSL-0027,ARRIVAL,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-001945,2025-05-27 01:12:00,INMUN,VSL-0052,LOADING_COMPLETE,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-008452,2025-05-27 10:16:00,USLGB,VSL-0063,BERTHED,32,Customs inspection required,conflicting_duplicate_event_id
+EVT-002846,2025-05-27 18:24:00,ESVLC,VSL-0062,BERTHED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-006454,2025-05-28 17:40:00,BEANR,VSL-0027,DEPARTURE,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-001130,2025-05-31 15:30:00,USNYC,VSL-0032,INSPECTION,0,High tide window missed,conflicting_duplicate_event_id
+EVT-001823,2025-06-01 20:40:00,MYPKG,VSL-0048,BERTHED,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-001017,2025-06-05 15:06:00,SGSIN,VSL-0063,CUSTOMS_CLEARED,11,High tide window missed,conflicting_duplicate_event_id
+EVT-003716,2025-06-14 09:50:00,JPYOK,VSL-0077,CUSTOMS_CLEARED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-020232,2025-06-15 10:53:00,MYPKG,VSL-0070,DELAYED,88,High tide window missed,conflicting_duplicate_event_id
+EVT-012512,2025-06-19 02:09:00,HKHKG,VSL-0045,INSPECTION,30,Weather delay – fog,conflicting_duplicate_event_id
+EVT-010623,2025-06-21 14:04:00,AEDXB,VSL-0037,LOADING_COMPLETE,21,Weather delay – storm,conflicting_duplicate_event_id
+EVT-002846,2025-06-21 15:13:00,JPYOK,VSL-0073,BERTHED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-002404,2025-06-22 11:24:00,USLGB,VSL-0072,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-008673,2025-06-22 16:18:00,DEHAM,VSL-0040,CUSTOMS_CLEARED,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-000140,2025-06-23 12:54:00,PKKAR,VSL-0078,BERTHED,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-001068,2025-06-26 03:24:00,EGPSD,VSL-0072,BERTHED,28,Crane maintenance window,conflicting_duplicate_event_id
+EVT-000238,2025-06-29 13:01:00,KRPUS,VSL-0079,ARRIVAL,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-001823,2025-06-29 20:06:00,USSAV,VSL-0075,BERTHED,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-000108,2025-06-30 07:42:00,PKKAR,VSL-0048,INSPECTION,2,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-001404,2025-07-03 21:05:00,MYPKG,VSL-0030,INSPECTION,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-019832,2025-07-09 22:13:00,USLGB,VSL-0014,DELAYED,39,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-003265,2025-07-10 01:31:00,AEDXB,VSL-0079,BERTHED,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-000797,2025-07-10 04:32:00,JPYOK,VSL-0065,LOADING_COMPLETE,41,Customs inspection required,conflicting_duplicate_event_id
+EVT-001536,2025-07-12 03:58:00,ZADUR,VSL-0059,LOADING_COMPLETE,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-005970,2025-07-16 07:29:00,USLGB,VSL-0016,LOADING_COMPLETE,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-004708,2025-07-16 12:01:00,ZADUR,VSL-0074,INSPECTION,0,Weather delay – fog,conflicting_duplicate_event_id
+EVT-010618,2025-07-16 20:08:00,JPYOK,VSL-0065,LOADING_COMPLETE,0,High tide window missed,conflicting_duplicate_event_id
+EVT-002599,2025-07-17 08:09:00,CNSHA,VSL-0012,CUSTOMS_CLEARED,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-006179,2025-07-18 20:26:00,PKKAR,VSL-0073,DELAYED,14,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000776,2025-07-19 13:17:00,USNYC,VSL-0078,BERTHED,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-002857,2025-07-22 17:31:00,CNSZX,VSL-0079,INSPECTION,33,High tide window missed,conflicting_duplicate_event_id
+EVT-002599,2025-07-24 13:21:00,CNSHA,VSL-0022,BERTHED,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-000279,2025-07-26 05:12:00,EGPSD,VSL-0014,INSPECTION,0,Port strike affecting berth 4,conflicting_duplicate_event_id
+EVT-006464,2025-07-28 09:49:00,USLAX,VSL-0071,DELAYED,255,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-012427,2025-08-04 16:00:00,HKHKG,VSL-0059,LOADING_COMPLETE,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-016169,2025-08-04 17:23:00,HKHKG,VSL-0016,DEPARTURE,0,High tide window missed,conflicting_duplicate_event_id
+EVT-003716,2025-08-05 07:40:00,USLGB,VSL-0068,CUSTOMS_CLEARED,0,,conflicting_duplicate_event_id
+EVT-013391,2025-08-05 20:48:00,KRPUS,VSL-0073,DEPARTURE,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-009491,2025-08-07 21:10:00,BRSSZ,VSL-0016,INSPECTION,14,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-006975,2025-08-08 02:09:00,CNSZX,VSL-0068,BERTHED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-001068,2025-08-09 23:04:00,GBFXT,VSL-0050,INSPECTION,0,Customs inspection required,conflicting_duplicate_event_id
+EVT-021936,2025-08-10 08:51:00,ESVLC,VSL-0054,LOADING_COMPLETE,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-004569,2025-08-13 07:16:00,THBKK,VSL-0011,INSPECTION,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-003359,2025-08-14 12:01:00,USLAX,VSL-0077,INSPECTION,47,Normal operations,conflicting_duplicate_event_id
+EVT-019832,2025-08-17 13:53:00,AEDXB,VSL-0057,DEPARTURE,0,High tide window missed,conflicting_duplicate_event_id
+EVT-002791,2025-08-20 14:50:00,SGSIN,VSL-0075,ARRIVAL,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-008673,2025-08-20 18:22:00,AEDXB,VSL-0038,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000148,2025-08-24 04:02:00,AEDXB,VSL-0010,BERTHED,58,High tide window missed,conflicting_duplicate_event_id
+EVT-001074,2025-08-29 00:53:00,BRSSZ,VSL-0001,LOADING_COMPLETE,0,Weather delay – storm,conflicting_duplicate_event_id
+EVT-005216,2025-08-31 02:57:00,THBKK,VSL-0065,ARRIVAL,0,Crane maintenance window,conflicting_duplicate_event_id
+EVT-003427,2025-09-03 16:09:00,NLRTM,VSL-0063,CUSTOMS_CLEARED,0,Reefer unit fault,conflicting_duplicate_event_id
+EVT-006679,2025-09-03 20:03:00,MYPKG,VSL-0046,INSPECTION,25,Crane maintenance window,conflicting_duplicate_event_id
+EVT-011393,2025-09-07 06:36:00,CNSZX,VSL-0024,ARRIVAL,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-001017,2025-09-08 01:40:00,BEANR,VSL-0030,DEPARTURE,25,Normal operations,conflicting_duplicate_event_id
+EVT-007941,2025-09-09 03:48:00,MYPKG,VSL-0061,ARRIVAL,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-011393,2025-09-09 10:32:00,INNSA,VSL-0070,DELAYED,8,,conflicting_duplicate_event_id
+EVT-000577,2025-09-09 21:55:00,USSAV,VSL-0053,LOADING_COMPLETE,0,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-009780,2025-09-15 02:46:00,BRSSZ,VSL-0030,INSPECTION,0,Priority cargo re-sequencing,conflicting_duplicate_event_id
+EVT-021212,2025-09-16 20:47:00,NLRTM,VSL-0014,CUSTOMS_CLEARED,0,Labour shortage reported,conflicting_duplicate_event_id
+EVT-020379,2025-09-19 15:46:00,USNYC,VSL-0077,INSPECTION,54,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-013391,2025-09-24 23:17:00,KRPUS,VSL-0033,BERTHED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-010656,2025-09-26 04:12:00,INMUN,VSL-0037,CUSTOMS_CLEARED,17,Weather delay – storm,conflicting_duplicate_event_id
+EVT-001064,2025-09-28 04:23:00,THBKK,VSL-0035,CUSTOMS_CLEARED,0,High tide window missed,conflicting_duplicate_event_id
+EVT-008972,2025-09-29 02:05:00,USSAV,VSL-0015,BERTHED,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-005044,2025-09-30 16:50:00,EGPSD,VSL-0012,ARRIVAL,36,Weather delay – storm,conflicting_duplicate_event_id
+EVT-000797,2025-10-02 01:32:00,HKHKG,VSL-0065,INSPECTION,14,Berth congestion – 3 vessels waiting,conflicting_duplicate_event_id
+EVT-003367,2025-10-04 04:07:00,AEDXB,VSL-0047,INSPECTION,0,Equipment failure – conveyor belt,conflicting_duplicate_event_id
+EVT-000127,2024-06-01 03:03:00,SGSIN,VSL-0066,,36,Weather delay – fog,missing_event_type
+EVT-005287,2024-06-02 09:28:00,PKKAR,VSL-0044,,0,Berth congestion – 3 vessels waiting,missing_event_type
+EVT-020782,2024-06-07 05:48:00,USNYC,VSL-0017,,39,Weather delay – fog,missing_event_type
+EVT-012288,2024-06-08 17:38:00,PKKAR,VSL-0032,,60,Priority cargo re-sequencing,missing_event_type
+EVT-006843,2024-06-11 23:33:00,CNSHA,VSL-0020,,0,Port strike affecting berth 4,missing_event_type
+EVT-019179,2024-06-15 16:26:00,KRPUS,VSL-0056,,0,Equipment failure – conveyor belt,missing_event_type
+EVT-023860,2024-06-23 18:45:00,USLGB,VSL-0040,,0,Crane maintenance window,missing_event_type
+EVT-010366,2024-06-24 21:43:00,MYPKG,VSL-0058,,0,,missing_event_type
+EVT-002616,2024-06-28 09:29:00,PKKAR,VSL-0025,,55,Port strike affecting berth 4,missing_event_type
+EVT-021900,2024-07-08 03:46:00,THBKK,VSL-0070,,0,Normal operations,missing_event_type
+EVT-016306,2024-07-12 21:50:00,USLAX,VSL-0032,,0,Priority cargo re-sequencing,missing_event_type
+EVT-001862,2024-07-13 22:34:00,USLAX,VSL-0080,,0,Priority cargo re-sequencing,missing_event_type
+EVT-004110,2024-07-14 17:48:00,EGPSD,VSL-0080,,0,High tide window missed,missing_event_type
+EVT-013813,2024-07-15 21:08:00,MYPKG,VSL-0004,,0,Crane maintenance window,missing_event_type
+EVT-015006,2024-07-17 22:13:00,ZADUR,VSL-0041,,0,Crane maintenance window,missing_event_type
+EVT-007205,2024-07-19 14:14:00,USSAV,VSL-0011,,0,High tide window missed,missing_event_type
+EVT-011217,2024-07-19 20:16:00,USLAX,VSL-0075,,0,Crane maintenance window,missing_event_type
+EVT-006657,2024-07-29 18:53:00,AEDXB,VSL-0020,,0,Berth congestion – 3 vessels waiting,missing_event_type
+EVT-002593,2024-08-10 16:19:00,MYPKG,VSL-0005,,0,Reefer unit fault,missing_event_type
+EVT-006836,2024-08-11 04:34:00,USSAV,VSL-0063,,0,High tide window missed,missing_event_type
+EVT-021291,2024-08-12 22:49:00,JPYOK,VSL-0036,,0,Crane maintenance window,missing_event_type
+EVT-016932,2024-08-14 12:02:00,NLRTM,VSL-0042,,0,Port strike affecting berth 4,missing_event_type
+EVT-019338,2024-08-24 13:51:00,BEANR,VSL-0047,,0,,missing_event_type
+EVT-005081,2024-08-29 18:48:00,SGSIN,VSL-0035,,0,High tide window missed,missing_event_type
+EVT-008111,2024-09-12 04:44:00,BEANR,VSL-0038,,0,Crane maintenance window,missing_event_type
+EVT-004702,2024-09-16 21:09:00,ZADUR,VSL-0011,,0,Berth congestion – 3 vessels waiting,missing_event_type
+EVT-017070,2024-09-17 06:39:00,USLAX,VSL-0009,,0,Weather delay – fog,missing_event_type
+EVT-005889,2024-09-21 19:00:00,MYPKG,VSL-0041,,0,High tide window missed,missing_event_type
+EVT-016774,2024-09-30 05:13:00,GBFXT,VSL-0071,,24,Equipment failure – conveyor belt,missing_event_type
+EVT-007140,2024-09-30 15:58:00,USNYC,VSL-0033,,0,Priority cargo re-sequencing,missing_event_type
+EVT-007375,2024-10-03 20:05:00,ESVLC,VSL-0022,,0,Reefer unit fault,missing_event_type
+EVT-020246,2024-10-04 10:01:00,BEANR,VSL-0059,,0,Priority cargo re-sequencing,missing_event_type
+EVT-006832,2024-10-06 06:06:00,NLRTM,VSL-0010,,0,Weather delay – fog,missing_event_type
+EVT-011927,2024-10-06 19:41:00,GBFXT,VSL-0020,,0,Reefer unit fault,missing_event_type
+EVT-009922,2024-10-09 01:05:00,INNSA,VSL-0020,,13,Weather delay – fog,missing_event_type
+EVT-000840,2024-10-21 15:43:00,NLRTM,VSL-0075,,0,Port strike affecting berth 4,missing_event_type
+EVT-017585,2024-10-21 21:48:00,DEHAM,VSL-0064,,25,Crane maintenance window,missing_event_type
+EVT-024839,2024-10-23 13:18:00,GBFXT,VSL-0054,,0,Customs inspection required,missing_event_type
+EVT-024826,2024-11-05 08:51:00,AEDXB,VSL-0057,,0,Priority cargo re-sequencing,missing_event_type
+EVT-022537,2024-11-07 03:28:00,INMUN,VSL-0075,,0,Reefer unit fault,missing_event_type
+EVT-005901,2024-11-09 19:18:00,NLRTM,VSL-0014,,0,Customs inspection required,missing_event_type
+EVT-007152,2024-11-15 07:35:00,THBKK,VSL-0074,,0,Port strike affecting berth 4,missing_event_type
+EVT-005436,2024-11-15 18:44:00,EGPSD,VSL-0056,,0,Weather delay – storm,missing_event_type
+EVT-020395,2024-11-16 19:04:00,GBFXT,VSL-0012,,0,Reefer unit fault,missing_event_type
+EVT-012679,2024-11-17 23:52:00,HKHKG,VSL-0036,,0,Weather delay – storm,missing_event_type
+EVT-002790,2024-11-20 09:10:00,USLAX,VSL-0028,,49,Reefer unit fault,missing_event_type
+EVT-018485,2024-11-21 00:40:00,KRPUS,VSL-0027,,51,Equipment failure – conveyor belt,missing_event_type
+EVT-024448,2024-11-28 00:43:00,ESVLC,VSL-0059,,0,Normal operations,missing_event_type
+EVT-006333,2024-12-15 06:13:00,ESVLC,VSL-0071,,0,Customs inspection required,missing_event_type
+EVT-013977,2024-12-16 18:21:00,JPYOK,VSL-0022,,0,Port strike affecting berth 4,missing_event_type
+EVT-000997,2024-12-17 19:51:00,BEANR,VSL-0030,,0,Weather delay – fog,missing_event_type
+EVT-017779,2024-12-17 19:59:00,USSAV,VSL-0077,,0,Priority cargo re-sequencing,missing_event_type
+EVT-015130,2024-12-18 05:02:00,BRSSZ,VSL-0004,,0,Weather delay – storm,missing_event_type
+EVT-022164,2025-01-02 17:17:00,CNNGB,VSL-0059,,0,Priority cargo re-sequencing,missing_event_type
+EVT-021311,2025-01-03 13:21:00,BRSSZ,VSL-0021,,0,,missing_event_type
+EVT-017680,2025-01-11 00:56:00,EGPSD,VSL-0045,,0,Customs inspection required,missing_event_type
+EVT-024190,2025-01-18 16:20:00,NLRTM,VSL-0060,,0,Weather delay – storm,missing_event_type
+EVT-000115,2025-01-18 23:56:00,INNSA,VSL-0068,,0,Port strike affecting berth 4,missing_event_type
+EVT-000812,2025-01-19 02:35:00,BEANR,VSL-0049,,0,Labour shortage reported,missing_event_type
+EVT-019087,2025-01-21 02:41:00,DEHAM,VSL-0024,,0,,missing_event_type
+EVT-006064,2025-01-22 11:18:00,INNSA,VSL-0033,,13,Weather delay – fog,missing_event_type
+EVT-006384,2025-01-24 10:24:00,USNYC,VSL-0044,,0,Reefer unit fault,missing_event_type
+EVT-020010,2025-01-25 06:22:00,USSAV,VSL-0016,,0,High tide window missed,missing_event_type
+EVT-008620,2025-01-26 21:49:00,SGSIN,VSL-0050,,0,Customs inspection required,missing_event_type
+EVT-020612,2025-02-06 17:04:00,USLAX,VSL-0025,,0,Normal operations,missing_event_type
+EVT-024400,2025-02-08 07:56:00,INNSA,VSL-0010,,0,Normal operations,missing_event_type
+EVT-011653,2025-02-09 06:37:00,CNSZX,VSL-0068,,0,Priority cargo re-sequencing,missing_event_type
+EVT-021020,2025-02-14 18:47:00,NLRTM,VSL-0049,,0,Customs inspection required,missing_event_type
+EVT-007443,2025-02-16 06:34:00,INMUN,VSL-0072,,0,Priority cargo re-sequencing,missing_event_type
+EVT-017723,2025-03-09 08:00:00,NLRTM,VSL-0044,,49,Normal operations,missing_event_type
+EVT-004248,2025-03-12 06:47:00,ESVLC,VSL-0029,,39,Customs inspection required,missing_event_type
+EVT-018828,2025-03-17 13:31:00,KRPUS,VSL-0006,,0,Weather delay – storm,missing_event_type
+EVT-007605,2025-03-19 02:05:00,USLGB,VSL-0002,,58,Normal operations,missing_event_type
+EVT-006206,2025-03-26 05:09:00,USLGB,VSL-0061,,0,,missing_event_type
+EVT-012373,2025-03-28 13:59:00,NLRTM,VSL-0045,,0,Customs inspection required,missing_event_type
+EVT-005165,2025-03-31 22:12:00,PKKAR,VSL-0058,,0,Priority cargo re-sequencing,missing_event_type
+EVT-010391,2025-04-05 18:56:00,HKHKG,VSL-0007,,0,Weather delay – fog,missing_event_type
+EVT-013055,2025-04-07 05:09:00,EGPSD,VSL-0057,,0,Normal operations,missing_event_type
+EVT-017696,2025-04-08 10:29:00,CNSZX,VSL-0071,,46,Customs inspection required,missing_event_type
+EVT-012482,2025-04-11 14:24:00,AEDXB,VSL-0005,,3,Port strike affecting berth 4,missing_event_type
+EVT-012395,2025-04-13 08:43:00,JPYOK,VSL-0034,,0,Weather delay – fog,missing_event_type
+EVT-006985,2025-04-15 17:47:00,ESVLC,VSL-0028,,25,Port strike affecting berth 4,missing_event_type
+EVT-005699,2025-04-16 17:29:00,ZADUR,VSL-0077,,57,Priority cargo re-sequencing,missing_event_type
+EVT-019412,2025-04-19 17:31:00,EGPSD,VSL-0023,,6,Port strike affecting berth 4,missing_event_type
+EVT-005669,2025-04-22 10:01:00,CNNGB,VSL-0025,,0,Weather delay – storm,missing_event_type
+EVT-001173,2025-04-22 19:41:00,USNYC,VSL-0029,,0,Weather delay – fog,missing_event_type
+EVT-024418,2025-04-24 11:53:00,KRPUS,VSL-0055,,0,Priority cargo re-sequencing,missing_event_type
+EVT-024719,2025-04-26 00:44:00,USLGB,VSL-0070,,0,Labour shortage reported,missing_event_type
+EVT-005703,2025-04-26 13:15:00,DEHAM,VSL-0016,,0,Berth congestion – 3 vessels waiting,missing_event_type
+EVT-022316,2025-04-29 04:08:00,KRPUS,VSL-0003,,0,Equipment failure – conveyor belt,missing_event_type
+EVT-002725,2025-04-29 19:37:00,HKHKG,VSL-0021,,0,Customs inspection required,missing_event_type
+EVT-024416,2025-04-30 19:48:00,USLGB,VSL-0029,,0,Weather delay – fog,missing_event_type
+EVT-005124,2025-05-01 07:50:00,CNSZX,VSL-0076,,0,,missing_event_type
+EVT-008641,2025-05-02 07:04:00,CNSHA,VSL-0071,,0,,missing_event_type
+EVT-011051,2025-05-02 11:30:00,CNSHA,VSL-0055,,12,Reefer unit fault,missing_event_type
+EVT-002100,2025-05-03 11:19:00,ESVLC,VSL-0054,,41,Weather delay – storm,missing_event_type
+EVT-002375,2025-05-10 04:06:00,AEDXB,VSL-0042,,0,Berth congestion – 3 vessels waiting,missing_event_type
+EVT-013481,2025-05-11 02:36:00,THBKK,VSL-0035,,0,Port strike affecting berth 4,missing_event_type
+EVT-017058,2025-05-12 03:22:00,EGPSD,VSL-0054,,0,,missing_event_type
+EVT-018985,2025-05-12 10:46:00,DEHAM,VSL-0052,,0,Normal operations,missing_event_type
+EVT-005228,2025-05-20 19:56:00,BRSSZ,VSL-0072,,0,Weather delay – fog,missing_event_type
+EVT-002917,2025-05-22 08:17:00,DEHAM,VSL-0039,,0,Weather delay – storm,missing_event_type
+EVT-006152,2025-05-25 04:29:00,CNSHA,VSL-0076,,48,Weather delay – fog,missing_event_type
+EVT-016080,2025-05-27 19:42:00,MYPKG,VSL-0076,,0,High tide window missed,missing_event_type
+EVT-001629,2025-05-28 21:55:00,ESVLC,VSL-0047,,0,High tide window missed,missing_event_type
+EVT-009373,2025-05-31 18:27:00,INNSA,VSL-0071,,0,,missing_event_type
+EVT-001465,2025-06-04 15:34:00,ESVLC,VSL-0079,,0,Weather delay – storm,missing_event_type
+EVT-015375,2025-06-13 06:34:00,USNYC,VSL-0061,,0,Customs inspection required,missing_event_type
+EVT-010432,2025-06-13 07:04:00,BEANR,VSL-0001,,0,Port strike affecting berth 4,missing_event_type
+EVT-023171,2025-06-15 05:30:00,SGSIN,VSL-0049,,0,Equipment failure – conveyor belt,missing_event_type
+EVT-024598,2025-06-15 19:06:00,SGSIN,VSL-0074,,0,Customs inspection required,missing_event_type
+EVT-023100,2025-06-20 02:37:00,INNSA,VSL-0062,,45,Port strike affecting berth 4,missing_event_type
+EVT-008283,2025-06-29 10:26:00,ZADUR,VSL-0021,,0,Reefer unit fault,missing_event_type
+EVT-009211,2025-07-01 06:55:00,INNSA,VSL-0001,,0,Port strike affecting berth 4,missing_event_type
+EVT-004001,2025-07-11 12:14:00,CNSHA,VSL-0001,,29,Equipment failure – conveyor belt,missing_event_type
+EVT-005253,2025-07-16 13:49:00,USLAX,VSL-0014,,0,High tide window missed,missing_event_type
+EVT-001794,2025-07-19 22:44:00,SGSIN,VSL-0047,,0,Reefer unit fault,missing_event_type
+EVT-007124,2025-07-20 20:59:00,AEDXB,VSL-0020,,0,Normal operations,missing_event_type
+EVT-003501,2025-07-25 19:05:00,INMUN,VSL-0012,,0,High tide window missed,missing_event_type
+EVT-011247,2025-07-26 18:01:00,INMUN,VSL-0070,,59,Weather delay – storm,missing_event_type
+EVT-016186,2025-08-03 17:28:00,EGPSD,VSL-0061,,0,Crane maintenance window,missing_event_type
+EVT-018098,2025-08-08 06:20:00,CNSZX,VSL-0045,,0,Crane maintenance window,missing_event_type
+EVT-011931,2025-08-08 16:09:00,USNYC,VSL-0044,,0,Customs inspection required,missing_event_type
+EVT-001206,2025-08-10 18:33:00,DEHAM,VSL-0029,,0,,missing_event_type
+EVT-016468,2025-08-11 09:37:00,HKHKG,VSL-0075,,0,Crane maintenance window,missing_event_type
+EVT-005387,2025-08-15 14:18:00,INNSA,VSL-0019,,0,Weather delay – fog,missing_event_type
+EVT-007151,2025-08-20 07:02:00,KRPUS,VSL-0048,,0,Crane maintenance window,missing_event_type
+EVT-015283,2025-08-20 23:30:00,USLGB,VSL-0049,,0,High tide window missed,missing_event_type
+EVT-013064,2025-08-25 06:20:00,NLRTM,VSL-0078,,0,,missing_event_type
+EVT-001379,2025-09-02 20:23:00,USNYC,VSL-0053,,18,Equipment failure – conveyor belt,missing_event_type
+EVT-024359,2025-09-04 09:48:00,EGPSD,VSL-0054,,22,Reefer unit fault,missing_event_type
+EVT-019991,2025-09-14 15:44:00,CNNGB,VSL-0066,,0,,missing_event_type
+EVT-023527,2025-09-15 01:52:00,USSAV,VSL-0052,,0,Crane maintenance window,missing_event_type
+EVT-017752,2025-09-20 07:28:00,PKKAR,VSL-0028,,55,Weather delay – storm,missing_event_type
+EVT-009026,2025-10-08 16:39:00,BRSSZ,VSL-0078,,0,Reefer unit fault,missing_event_type
+EVT-013951,2025-10-08 19:57:00,JPYOK,VSL-0006,,0,Crane maintenance window,missing_event_type
+EVT-008815,2025-10-11 10:40:00,CNSZX,VSL-0037,,0,Reefer unit fault,missing_event_type
+EVT-004981,2025-10-13 21:05:00,KRPUS,VSL-0071,,23,Berth congestion – 3 vessels waiting,missing_event_type
